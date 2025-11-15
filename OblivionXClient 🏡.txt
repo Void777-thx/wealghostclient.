@@ -93,7 +93,7 @@ Label.Size = UDim2.new(0.6,0,0.08,0)
 Label.Position = UDim2.new(0.5,0,0.2,0)
 Label.AnchorPoint = Vector2.new(0.5,0)
 Label.BackgroundTransparency = 1
-Label.Text = "Ghost Client 🌌🏡"
+Label.Text = "🌌OblivionX Client 🌌"
 Label.TextScaled = true
 Label.Font = Enum.Font.GothamBold
 Label.TextColor3 = Color3.fromRGB(255,255,255)
@@ -263,14 +263,14 @@ if not redzlib then error("deu red") end
 workspace.FallenPartsDestroyHeight = -math.huge
 
 local Window = redzlib:MakeWindow({
-    Title = Translator:traduzir("Ghost Client🏡🌌 | 5.0"),
+    Title = Translator:traduzir("OblivionXClient | Brookhaven RP 🏡🌌 | 5.0"),
     SubTitle = " | Dev: voidzin77",
     SaveFolder = "redz Hub | Brookhaven RP.lua"
 })
 
 Window:AddMinimizeButton({
 	Button = {
-		Image = "rbxassetid://97023202251640"
+		Image = "rbxassetid://7229442422"
 	},
 	Corner = {
 		CornerRadius = UDim.new(0, 2)
@@ -283,7 +283,7 @@ Window:AddMinimizeButton({
 })
 local args = {
     [1] = "RolePlayName",
-    [2] = "⚠️ Danger ⚠️ | User Ghost Client 🌌"
+    [2] = "🌌 OblivionX Hub 🌌"
 }
 
 game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
@@ -308,9 +308,9 @@ local Tabs = {
 }
 
 Tabs.M:AddDiscordInvite({
-    Name = Translator:traduzir("Ghost Client Studios"),
+    Name = Translator:traduzir("OblivionX Client Studios"),
     Description = Translator:traduzir("Entre na Nossa Comunidade Oficial do Discord"),
-    Logo = "rbxassetid://97023202251640",
+    Logo = "rbxassetid://7229442422",
     Invite = "https://discord.gg/Tg7N6E3e8"
 })
 
@@ -3428,7 +3428,7 @@ function executarSequenciaCombate()
     end)
 end
 
-local ButtonStart = Tabs.TT:AddButton({Translator:traduzir("Shinra Tensei by The DarknesxzDev"), function()
+local ButtonStart = Tabs.TT:AddButton({Translator:traduzir("Shinra Tensei by Wx"), function()
     executarSequenciaCombate()
 end})
 
